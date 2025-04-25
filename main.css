@@ -4,10 +4,24 @@
 }
 
 body {
-    padding: 0 12px;
+    padding: 0 12px 40px;
 }
 h2 {
     text-align: center;
     padding: 12px 0;
     text-decoration: underline red;
 }
+.box {
+    display: flex ; 
+    flex-direction: column ;
+    gap: 10px;
+}
+.uber-button {
+    background-color: black;
+    color: white;
+    height: 38px;
+    width: 110px;
+    border: none;
+    cursor: pointer;
+}
+
