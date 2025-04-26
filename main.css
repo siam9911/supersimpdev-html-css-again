@@ -30,7 +30,7 @@ h2 {
     width: 180px;
     border: none;
     border-radius: 20px;
-    font-size: 16px;
+    font-size: medium;
     cursor: pointer;
 }
 .github-button {
@@ -75,4 +75,30 @@ h2 {
     font-weight: bolder;
     border-radius: 30px;
     border-color: rgb(3, 102, 189);
+    margin-left: 20px;
+}
+.amazon-link {
+    color: rgb(0, 113, 133);
+}
+.title {
+    font-size: x-large;
+    font-weight: bold;
+}
+.price {
+    color: rgb(0, 118, 0);
+    font-size: large;
+    font-weight: bold;
+}
+.delivery {
+    font-size: large;
+    margin-bottom: 15px;
+}
+.buy-now-button {
+    background-color: rgb(255, 164, 28);
+    height: 40px;
+    width: 130px;
+    border: none;
+    border-radius: 20px;
+    font-size: medium;
+    margin-left: 25px;
 }
