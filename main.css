@@ -24,3 +24,55 @@ h2 {
     border: none;
     cursor: pointer;
 }
+.amazon-button {
+    background-color: rgb(255, 216, 20);
+    height: 40px;
+    width: 180px;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.github-button {
+    background-color: rgb(46, 164, 79);
+    color: white;
+    font-size: larger;
+    font-weight: bolder;
+    height: 50px;
+    width: 130px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.bootstrap-button {
+    background-color: white;
+    color: rgb(108, 117, 125);
+    height: 44px;
+    width: 130px;
+    font-size: large;
+    font-weight: bold;
+    border-radius: 4px;
+    border-width: 1px;
+    cursor: pointer;
+}
+.linkedin-apply {
+    background-color: rgb(10, 102, 194);
+    color: white;
+    height: 55px;
+    width: 300px;
+    font-size: large;
+    font-weight: bold;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.linkedin-save {
+    background-color: white;
+    color: rgb(3, 102, 189);
+    height: 50px;
+    width: 99px;
+    font-size: large;
+    font-weight: bolder;
+    border-radius: 30px;
+    border-color: rgb(3, 102, 189);
+}
