@@ -41,6 +41,9 @@ h2 {
 .amazon-button:hover {
     background-color: rgb(226, 176, 13);
 }
+.amazon-button:active {
+    opacity: 0.5;
+}
 .github-button {
     background-color: rgb(46, 164, 79);
     color: white;
@@ -106,6 +109,10 @@ h2 {
 }
 .amazon-link {
     color: rgb(0, 113, 133);
+    transition: color 0.2s;
+}
+.amazon-link:hover {
+    color: orange;
 }
 .title {
     font-size: x-large;
@@ -128,4 +135,14 @@ h2 {
     border-radius: 20px;
     font-size: medium;
     margin-left: 25px;
-}   
+}  
+.buy-now-button:hover {
+    background-color: rgb(218, 134, 8) ;
+} 
+.buy-now-button:active {
+    opacity: 0.6;
+}
+.lesson-3 {
+    text-align: center;
+    font-size:larger 
+}
