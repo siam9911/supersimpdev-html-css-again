@@ -232,3 +232,42 @@ h2 {
   outline: none;
   cursor: pointer;
 }
+.five-f {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.usd {
+  font-size: xx-large;
+}
+.usd span {
+  font-size: large;
+  color: gray;
+}
+.today {
+  margin: 10px 0;
+  color: rgb(100, 139, 103);
+  font-size: large;
+}
+.after {
+  color: rgb(102, 102, 102);
+  font-size: large;
+}
+.after span {
+  color: red;
+}
+.five-g {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+}
+.free-title span{
+  font-weight: bold;
+  color: black;
+}
+.free-title {
+  color: gray;
+}
+.free-info {
+  margin: 10px 0 25px;
+}
+.free-ending span {
+  color: rgb(66, 119, 172);
+}
