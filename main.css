@@ -1,204 +1,234 @@
-*{
-    margin:0 ;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    padding: 0 12px 40px;
+  padding: 0 12px 40px;
 }
 h2 {
-    text-align: center;
-    padding: 12px 0;
-    text-decoration: underline red;
+  text-align: center;
+  padding: 12px 0;
+  text-decoration: underline red;
 }
 .box {
-    display: flex ; 
-    flex-direction: column ;
-    gap: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 .uber-button {
-    background-color: black;
-    color: white;
-    height: 38px;
-    width: 110px;
-    border: none;
-    cursor: pointer;
-    transition: opacity 0.15s;
+  background-color: black;
+  color: white;
+  height: 38px;
+  width: 110px;
+  border: none;
+  cursor: pointer;
+  transition: opacity 0.15s;
 }
 .uber-button:hover {
-    opacity: 0.7;
+  opacity: 0.7;
 }
 .amazon-button {
-    background-color: rgb(255, 216, 20);
-    height: 40px;
-    width: 180px;
-    border: none;
-    border-radius: 20px;
-    font-size: medium;
-    cursor: pointer;
-    transition: background-color 0.2s;
+  background-color: rgb(255, 216, 20);
+  height: 40px;
+  width: 180px;
+  border: none;
+  border-radius: 20px;
+  font-size: medium;
+  cursor: pointer;
+  transition: background-color 0.2s;
 }
 .amazon-button:hover {
-    background-color: rgb(226, 176, 13);
+  background-color: rgb(226, 176, 13);
 }
 .amazon-button:active {
-    opacity: 0.5;
+  opacity: 0.5;
 }
 .github-button {
-    background-color: rgb(46, 164, 79);
-    color: white;
-    font-size: larger;
-    font-weight: bolder;
-    height: 50px;
-    width: 130px;
-    border: none;
-    border-radius: 6px;
-    cursor: pointer;
-    transition: box-shadow 0.2s;
+  background-color: rgb(46, 164, 79);
+  color: white;
+  font-size: larger;
+  font-weight: bolder;
+  height: 50px;
+  width: 130px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: box-shadow 0.2s;
 }
 .github-button:hover {
-    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.3);
 }
 .bootstrap-button {
-    background-color: white;
-    color: rgb(108, 117, 125);
-    height: 44px;
-    width: 130px;
-    font-size: large;
-    font-weight: bold;
-    border-radius: 4px;
-    border-width: 1px;
-    cursor: pointer;
-    transition: 0.2s;
+  background-color: white;
+  color: rgb(108, 117, 125);
+  height: 44px;
+  width: 130px;
+  font-size: large;
+  font-weight: bold;
+  border-radius: 4px;
+  border-width: 1px;
+  cursor: pointer;
+  transition: 0.2s;
 }
 .bootstrap-button:hover {
-    background-color: rgb(108, 117, 125);
-    color: white;
+  background-color: rgb(108, 117, 125);
+  color: white;
 }
 .linkedin-apply {
-    background-color: rgb(10, 102, 194);
-    color: white;
-    height: 55px;
-    width: 300px;
-    font-size: large;
-    font-weight: bold;
-    border: none;
-    border-radius: 30px;
-    cursor: pointer;
-    transition: background-color 0.2s;
+  background-color: rgb(10, 102, 194);
+  color: white;
+  height: 55px;
+  width: 300px;
+  font-size: large;
+  font-weight: bold;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.2s;
 }
 .linkedin-apply:hover {
-    background-color: rgb(4, 65, 126);
+  background-color: rgb(4, 65, 126);
 }
 .linkedin-save {
-    background-color: white;
-    color: rgb(3, 102, 189);
-    height: 50px;
-    width: 99px;
-    font-size: large;
-    font-weight: bolder;
-    border-radius: 30px;
-    border-color: rgb(3, 102, 189);
-    margin-left: 20px;
-    transition: background-color 0.15s,
-      border-width 0.15s;
+  background-color: white;
+  color: rgb(3, 102, 189);
+  height: 50px;
+  width: 99px;
+  font-size: large;
+  font-weight: bolder;
+  border-radius: 30px;
+  border-color: rgb(3, 102, 189);
+  margin-left: 20px;
+  transition: background-color 0.15s, border-width 0.15s;
 }
 .linkedin-save:hover {
-    border-width: 3px;
-    background-color: rgb(226, 240, 254);
+  border-width: 3px;
+  background-color: rgb(226, 240, 254);
 }
 .amazon-link {
-    color: rgb(0, 113, 133);
-    transition: color 0.2s;
+  color: rgb(0, 113, 133);
+  transition: color 0.2s;
 }
 .amazon-link:hover {
-    color: orange;
+  color: orange;
 }
 .title {
-    font-size: x-large;
-    font-weight: bold;
+  font-size: x-large;
+  font-weight: bold;
 }
 .price {
-    color: rgb(0, 118, 0);
-    font-size: large;
-    font-weight: bold;
+  color: rgb(0, 118, 0);
+  font-size: large;
+  font-weight: bold;
 }
 .delivery {
-    font-size: large;
-    margin-bottom: 15px;
+  font-size: large;
+  margin-bottom: 15px;
 }
 .buy-now-button {
-    background-color: rgb(255, 164, 28);
-    height: 40px;
-    width: 130px;
-    border: none;
-    border-radius: 20px;
-    font-size: medium;
-    margin-left: 25px;
-}  
+  background-color: rgb(255, 164, 28);
+  height: 40px;
+  width: 130px;
+  border: none;
+  border-radius: 20px;
+  font-size: medium;
+  margin-left: 25px;
+}
 .buy-now-button:hover {
-    background-color: rgb(218, 134, 8) ;
-} 
+  background-color: rgb(218, 134, 8);
+}
 .buy-now-button:active {
-    opacity: 0.6;
+  opacity: 0.6;
 }
 .lesson-3 {
-    text-align: center;
-    font-size:larger 
+  text-align: center;
+  font-size: larger;
 }
 .tahoma-font {
-    font-family: Tahoma;
-    font-size: 30px;
-    font-weight: 600;
+  font-family: Tahoma;
+  font-size: 30px;
+  font-weight: 600;
 }
 .five-b {
-    font-family: arial;
-    font-size: 25px;
-    font-weight: 600;
-    width: 350px;
+  font-family: arial;
+  font-size: 25px;
+  font-weight: 600;
+  width: 350px;
 }
 .sales-end {
-    color: red;
-    font-family: Arial;
-    font-style: italic;
-    font-size: 20px;
+  color: red;
+  font-family: Arial;
+  font-style: italic;
+  font-size: 20px;
 }
 .course-title {
-    font-family: Verdana;
-    font-size: large;
-    font-weight: bold;
-}   
+  font-family: Verdana;
+  font-size: large;
+  font-weight: bold;
+}
 .course-subtitle {
-    font-family: verdana;
-    color: rgb(100, 100, 100);
-    margin-bottom: 30px;
+  font-family: verdana;
+  color: rgb(100, 100, 100);
+  margin-bottom: 30px;
 }
 .content {
-    font-family: Verdana;
-    width: 300px;
-    margin-bottom: 30px;
+  font-family: Verdana;
+  width: 300px;
+  margin-bottom: 30px;
 }
 .get-started-btn {
-    background-color: green;
-    color: white;
-    padding: 14px 27px;
-    font-family: Verdana;
-    font-size: 15px;
-    border: none;
-    border-radius: 9px;
+  background-color: green;
+  color: white;
+  padding: 14px 27px;
+  font-family: Verdana;
+  font-size: 15px;
+  border: none;
+  border-radius: 9px;
 }
 .shopping {
-    font-family: arial;
-    font-size: 30px;
-    font-weight: bold;
-    text-align: center;
-    margin-bottom: 20px;
+  font-family: arial;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
 }
 .apple-help {
-    font-family: arial;
-    text-align: center;
-    margin-bottom: 20px;
+  font-family: arial;
+  text-align: center;
+  margin-bottom: 20px;
 }
-.learn-more {   
-    text-align: center;
+.learn-more {
+  text-align: center;
+}
+.five-e {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+.new {
+  color: rgb(182, 13, 13);
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.mac-pro {
+  font-size: x-large;
+  font-weight: bold;
+}
+.super-charged {
+  font-size: 50px;
+  font-weight: 700;
+}
+.mac-price {
+  margin: 15px 0px;
+  font-size: medium;
+}
+.apple-buy {
+  background-color: rgb(0 113 227);
+  padding: 10px 16px;
+  color: white;
+  border: none;
+  border-radius: 19px;
+  font-weight: bold;
+  outline: none;
+  cursor: pointer;
 }
