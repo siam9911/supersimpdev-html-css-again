@@ -258,7 +258,7 @@ h2 {
   font-family: Arial, Helvetica, sans-serif;
   font-size: large;
 }
-.free-title span{
+.free-title span {
   font-weight: bold;
   color: black;
 }
@@ -270,4 +270,24 @@ h2 {
 }
 .free-ending span {
   color: rgb(66, 119, 172);
+}
+.structures {
+  text-align: center;
+  font-size: large;
+}
+.model-3 {
+    font-family: Montserrat;
+    text-align: center;
+    font-size: 35px;
+  font-weight: bold;
+  margin-bottom: 10px
+}
+.order-online {
+  font-family: Montserrat;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.touchless {
+  text-decoration: underline;
 }
