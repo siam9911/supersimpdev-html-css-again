@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -273,14 +274,14 @@ h2 {
 }
 .structures {
   text-align: center;
-  font-size: large;
+  font-size: large;    
 }
 .model-3 {
-    font-family: Montserrat;
-    text-align: center;
-    font-size: 35px;
+  font-family: Montserrat;
+  text-align: center;
+  font-size: 35px; flex-direction: ;
   font-weight: bold;
-  margin-bottom: 10px
+  margin-bottom: 10px;
 }
 .order-online {
   font-family: Montserrat;
@@ -290,4 +291,66 @@ h2 {
 }
 .touchless {
   text-decoration: underline;
+}
+.cat-pic {
+  width: 200px;
+  border-radius: 20px;
+  margin: auto;
+  display: block;
+}
+.cat-pic7b {
+  width: 200px;
+  height: 200px;
+  margin: auto;
+  display: block;
+}
+.cat-pic7c {
+  width: 200px;
+  margin: auto;
+  display: block;
+  border-radius: 99px;
+}
+.search-7d {
+  font-size: larger;
+  padding: 5px 12px;
+  border-radius: 5px;
+  border: 1px solid rgb(194, 194, 194);
+  outline: none;
+}
+.search-7e {
+  margin: auto;
+  display: block;
+  font-size: large;
+  width: 50%;
+  padding: 15px 20px;
+  border-radius: 50px;
+  box-shadow:rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  outline: none;
+  border: none;
+}
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+.search-7f {
+  padding: 10px 8px;
+  width: 100%;
+  border: 2px solid #ddd;
+  border-radius: 3px;
+  outline: none;
+}
+.linkdin-sub-title {
+  margin: 10px 0;  
+  color: rgb(94, 94, 94);
+}
+.btn-7f {
+  width: 100%;
+  padding: 15px;
+  background-color: rgb(37, 86, 160);
+  color: white;
+  font-size: large;
+  border: none;
+  border-radius: 50px;
+  outline: none;
+  cursor: pointer;
 }
