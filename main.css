@@ -355,21 +355,23 @@ label {
   cursor: pointer;
 }
 .sevenG {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.sevenG div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 .cat-pic-7g {
   width: 80px;
   border-radius: 50px;
-  vertical-align: middle;
-  display: inline-block;
-  margin-right: 10px;
 }
 .title-7g {
   color: rgb(102, 102, 102);
   font-size: 20px;
   font-family: Arial, Helvetica, sans-serif;
-  vertical-align: middle;
-  display: inline-block;
-  margin-right: auto;
 }
 .btn-7g {
   background-color: rgb(69, 143, 216);
@@ -379,6 +381,4 @@ label {
   font-size: large;
   font-weight: 900;
   border-radius: 50px;
-  vertical-align: middle;
-  display: inline-block;
 }
