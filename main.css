@@ -382,3 +382,63 @@ label {
   font-weight: 900;
   border-radius: 50px;
 }
+.eight-a {
+  display: block;
+  margin-bottom: 7px;
+  outline: none;
+}
+.eight-b p,
+.eight-b button {
+  display: inline-block;
+  vertical-align: middle;
+}
+.eight-b p {
+  width: 200px;
+}
+.eight-b button {
+  width: 50px;
+}
+.eight-c-search {
+  border: none;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  font-size: large;
+  width: 500px;
+  max-width: 100%;
+  margin: auto;
+  display: block;
+  padding: 15px 20px;
+  border-radius: 50px;
+  outline: none;
+}
+.logo {
+  object-fit: cover;
+  display: block;
+  margin: auto;
+  width: 300px;
+  height: 100px;
+}
+.eight-d input, 
+.eight-d button {
+  outline: none;
+  border-radius: 8px;
+  width: 100%;
+  padding: 15px 18px;
+  margin-bottom: 10px;
+  border: 1px solid rgb(210, 210, 210);
+}
+.eight-d button {
+  border: none;
+  color: white;
+  background-color: rgb(58, 117, 233);
+  font-size: large;
+  font-weight: bold;
+}
+.eight-d div {
+  display: flex;
+  gap: 10px;
+}
+.eight-d {
+  width: 500px;
+  max-width: 100%;
+  margin: auto;
+}
