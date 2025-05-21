@@ -1,0 +1,444 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0 12px 40px;
+}
+h2 {
+  text-align: center;
+  padding: 12px 0;
+  text-decoration: underline red;
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.uber-button {
+  background-color: black;
+  color: white;
+  height: 38px;
+  width: 110px;
+  border: none;
+  cursor: pointer;
+  transition: opacity 0.15s;
+}
+.uber-button:hover {
+  opacity: 0.7;
+}
+.amazon-button {
+  background-color: rgb(255, 216, 20);
+  height: 40px;
+  width: 180px;
+  border: none;
+  border-radius: 20px;
+  font-size: medium;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+.amazon-button:hover {
+  background-color: rgb(226, 176, 13);
+}
+.amazon-button:active {
+  opacity: 0.5;
+}
+.github-button {
+  background-color: rgb(46, 164, 79);
+  color: white;
+  font-size: larger;
+  font-weight: bolder;
+  height: 50px;
+  width: 130px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: box-shadow 0.2s;
+}
+.github-button:hover {
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.3);
+}
+.bootstrap-button {
+  background-color: white;
+  color: rgb(108, 117, 125);
+  height: 44px;
+  width: 130px;
+  font-size: large;
+  font-weight: bold;
+  border-radius: 4px;
+  border-width: 1px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.bootstrap-button:hover {
+  background-color: rgb(108, 117, 125);
+  color: white;
+}
+.linkedin-apply {
+  background-color: rgb(10, 102, 194);
+  color: white;
+  height: 55px;
+  width: 300px;
+  font-size: large;
+  font-weight: bold;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+.linkedin-apply:hover {
+  background-color: rgb(4, 65, 126);
+}
+.linkedin-save {
+  background-color: white;
+  color: rgb(3, 102, 189);
+  height: 50px;
+  width: 99px;
+  font-size: large;
+  font-weight: bolder;
+  border-radius: 30px;
+  border-color: rgb(3, 102, 189);
+  margin-left: 20px;
+  transition: background-color 0.15s, border-width 0.15s;
+}
+.linkedin-save:hover {
+  border-width: 3px;
+  background-color: rgb(226, 240, 254);
+}
+.amazon-link {
+  color: rgb(0, 113, 133);
+  transition: color 0.2s;
+}
+.amazon-link:hover {
+  color: orange;
+}
+.title {
+  font-size: x-large;
+  font-weight: bold;
+}
+.price {
+  color: rgb(0, 118, 0);
+  font-size: large;
+  font-weight: bold;
+}
+.delivery {
+  font-size: large;
+  margin-bottom: 15px;
+}
+.buy-now-button {
+  background-color: rgb(255, 164, 28);
+  height: 40px;
+  width: 130px;
+  border: none;
+  border-radius: 20px;
+  font-size: medium;
+  margin-left: 25px;
+}
+.buy-now-button:hover {
+  background-color: rgb(218, 134, 8);
+}
+.buy-now-button:active {
+  opacity: 0.6;
+}
+.lesson-3 {
+  text-align: center;
+  font-size: larger;
+}
+.tahoma-font {
+  font-family: Tahoma;
+  font-size: 30px;
+  font-weight: 600;
+}
+.five-b {
+  font-family: arial;
+  font-size: 25px;
+  font-weight: 600;
+  width: 350px;
+}
+.sales-end {
+  color: red;
+  font-family: Arial;
+  font-style: italic;
+  font-size: 20px;
+}
+.course-title {
+  font-family: Verdana;
+  font-size: large;
+  font-weight: bold;
+}
+.course-subtitle {
+  font-family: verdana;
+  color: rgb(100, 100, 100);
+  margin-bottom: 30px;
+}
+.content {
+  font-family: Verdana;
+  width: 300px;
+  margin-bottom: 30px;
+}
+.get-started-btn {
+  background-color: green;
+  color: white;
+  padding: 14px 27px;
+  font-family: Verdana;
+  font-size: 15px;
+  border: none;
+  border-radius: 9px;
+}
+.shopping {
+  font-family: arial;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.apple-help {
+  font-family: arial;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.learn-more {
+  text-align: center;
+}
+.five-e {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+.new {
+  color: rgb(182, 13, 13);
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.mac-pro {
+  font-size: x-large;
+  font-weight: bold;
+}
+.super-charged {
+  font-size: 50px;
+  font-weight: 700;
+}
+.mac-price {
+  margin: 15px 0px;
+  font-size: medium;
+}
+.apple-buy {
+  background-color: rgb(0 113 227);
+  padding: 10px 16px;
+  color: white;
+  border: none;
+  border-radius: 19px;
+  font-weight: bold;
+  outline: none;
+  cursor: pointer;
+}
+.five-f {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.usd {
+  font-size: xx-large;
+}
+.usd span {
+  font-size: large;
+  color: gray;
+}
+.today {
+  margin: 10px 0;
+  color: rgb(100, 139, 103);
+  font-size: large;
+}
+.after {
+  color: rgb(102, 102, 102);
+  font-size: large;
+}
+.after span {
+  color: red;
+}
+.five-g {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+}
+.free-title span {
+  font-weight: bold;
+  color: black;
+}
+.free-title {
+  color: gray;
+}
+.free-info {
+  margin: 10px 0 25px;
+}
+.free-ending span {
+  color: rgb(66, 119, 172);
+}
+.structures {
+  text-align: center;
+  font-size: large;    
+}
+.model-3 {
+  font-family: Montserrat;
+  text-align: center;
+  font-size: 35px; flex-direction: ;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.order-online {
+  font-family: Montserrat;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.touchless {
+  text-decoration: underline;
+}
+.cat-pic {
+  width: 200px;
+  border-radius: 20px;
+  margin: auto;
+  display: block;
+}
+.cat-pic7b {
+  width: 200px;
+  height: 200px;
+  margin: auto;
+  display: block;
+}
+.cat-pic7c {
+  width: 200px;
+  margin: auto;
+  display: block;
+  border-radius: 99px;
+}
+.search-7d {
+  font-size: larger;
+  padding: 5px 12px;
+  border-radius: 5px;
+  border: 1px solid rgb(194, 194, 194);
+  outline: none;
+}
+.search-7e {
+  margin: auto;
+  display: block;
+  font-size: large;
+  width: 50%;
+  padding: 15px 20px;
+  border-radius: 50px;
+  box-shadow:rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  outline: none;
+  border: none;
+}
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+.search-7f {
+  padding: 10px 8px;
+  width: 100%;
+  border: 2px solid #ddd;
+  border-radius: 3px;
+  outline: none;
+}
+.linkdin-sub-title {
+  margin: 10px 0;  
+  color: rgb(94, 94, 94);
+}
+.btn-7f {
+  width: 100%;
+  padding: 15px;
+  background-color: rgb(37, 86, 160);
+  color: white;
+  font-size: large;
+  border: none;
+  border-radius: 50px;
+  outline: none;
+  cursor: pointer;
+}
+.sevenG {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.sevenG div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.cat-pic-7g {
+  width: 80px;
+  border-radius: 50px;
+}
+.title-7g {
+  color: rgb(102, 102, 102);
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.btn-7g {
+  background-color: rgb(69, 143, 216);
+  color: white;
+  padding: 15px 29px;
+  border: none;
+  font-size: large;
+  font-weight: 900;
+  border-radius: 50px;
+}
+.eight-a {
+  display: block;
+  margin-bottom: 7px;
+  outline: none;
+}
+.eight-b p,
+.eight-b button {
+  display: inline-block;
+  vertical-align: middle;
+}
+.eight-b p {
+  width: 200px;
+}
+.eight-b button {
+  width: 50px;
+}
+.eight-c-search {
+  border: none;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  font-size: large;
+  width: 500px;
+  max-width: 100%;
+  margin: auto;
+  display: block;
+  padding: 15px 20px;
+  border-radius: 50px;
+  outline: none;
+}
+.logo {
+  object-fit: cover;
+  display: block;
+  margin: auto;
+  width: 300px;
+  height: 100px;
+}
+.eight-d input, 
+.eight-d button {
+  outline: none;
+  border-radius: 8px;
+  width: 100%;
+  padding: 15px 18px;
+  margin-bottom: 10px;
+  border: 1px solid rgb(210, 210, 210);
+}
+.eight-d button {
+  border: none;
+  color: white;
+  background-color: rgb(58, 117, 233);
+  font-size: large;
+  font-weight: bold;
+}
+.eight-d div {
+  display: flex;
+  gap: 10px;
+}
+.eight-d {
+  width: 500px;
+  max-width: 100%;
+  margin: auto;
+}
