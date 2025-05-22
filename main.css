@@ -5,6 +5,7 @@
 }
 
 body {
+  background-color: #ddd;
   padding: 0 12px 40px;
 }
 h2 {
@@ -437,8 +438,146 @@ label {
   display: flex;
   gap: 10px;
 }
-.eight-d {
+.eight-d,
+.eight-e {
   width: 500px;
   max-width: 100%;
   margin: auto;
+}
+.eight-e-title {
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 18px;
+}
+.ride-input1 {
+  display: block;
+  background-color: rgb(240, 240, 240);
+  border: none;
+  font-size: 17px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 15px;
+  padding-right: 60px;
+  margin: 10px 0;
+  width: 100%;
+}
+.request-btn {
+  font-size: medium;
+  color: white;
+  background-color: black;
+  border: none;
+  margin-top: 15px;
+  margin-right: 15px;
+  padding: 18px 25px;
+}
+.schedule-btn {
+  background-color: rgb(240, 240, 240);
+  color: black;
+  border: none;
+  padding: 20px 25px;
+  font-size: medium;
+  font-weight: 500;
+}
+.red-box {
+  background-color: red;
+  width: 50px;
+  height: 50px;
+  margin: auto;
+}
+.green-circle {
+  background-color: green;
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  margin: auto;
+}
+.border-9c {
+  border: 1px solid;
+  padding: 10px;
+  width: 300px;
+}
+.border-9c p {
+  margin-bottom: 10px;
+}
+.border-9d {
+  background-color: black;
+  height: 140px;
+  width: 400px;
+  color: white;
+}
+.border-9d p:first-child {
+  font-size: x-large;
+  padding: 20px 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+.border-9d p:last-child {
+  color: rgb(112, 112, 112);
+  padding: 10px 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.nine-e {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 50px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 20px;
+}
+.nine-e div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.nine-e img {
+  height: 50px;
+  width: 50px;
+  border: none;
+  border-radius: 50px;
+}
+.nine-e p {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(149, 149, 149);
+  font-size: large;
+}
+.cat-tweet {
+  font-size: large;
+  background-color: rgb(75, 154, 232);
+  padding: 10px 25px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  border: none;
+  border-radius: 50px;
+}
+.nine-f {
+  width: 180px;
+  margin: auto;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.nine-f img {
+  width: 100%;
+}
+.nine-f div {
+  padding: 8px;
+}
+.nine-f button {
+  font-size: medium;
+  padding: 9px 18px;
+  background-color: rgb(45, 92, 184);
+  color: white;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.mutual-9e {
+  margin: 7px 0;
+  color: rgb(146, 146, 146);
+}
+.oliver-9e {
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
 }
