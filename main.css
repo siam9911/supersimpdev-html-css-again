@@ -3,7 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+img {
+  object-fit: cover;
+}
 body {
   background-color: #ddd;
   padding: 0 12px 40px;
@@ -275,12 +277,13 @@ h2 {
 }
 .structures {
   text-align: center;
-  font-size: large;    
+  font-size: large;
 }
 .model-3 {
   font-family: Montserrat;
   text-align: center;
-  font-size: 35px; flex-direction: ;
+  font-size: 35px;
+  flex-direction: ;
   font-weight: bold;
   margin-bottom: 10px;
 }
@@ -325,7 +328,7 @@ h2 {
   width: 50%;
   padding: 15px 20px;
   border-radius: 50px;
-  box-shadow:rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   outline: none;
   border: none;
 }
@@ -341,7 +344,7 @@ label {
   outline: none;
 }
 .linkdin-sub-title {
-  margin: 10px 0;  
+  margin: 10px 0;
   color: rgb(94, 94, 94);
 }
 .btn-7f {
@@ -418,7 +421,7 @@ label {
   width: 300px;
   height: 100px;
 }
-.eight-d input, 
+.eight-d input,
 .eight-d button {
   outline: none;
   border-radius: 8px;
@@ -576,8 +579,99 @@ label {
 .mutual-9e {
   margin: 7px 0;
   color: rgb(146, 146, 146);
+  font-family: Arial, Helvetica, sans-serif;
 }
 .oliver-9e {
   font-weight: bold;
   font-family: Arial, Helvetica, sans-serif;
+}
+.nine-g {
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+}
+.nine-g {
+  display: inline-grid;
+  grid-template-columns: 200px 200px 200px;
+  background-color: white;
+  column-gap: 10px;
+  padding: 20px;
+}
+.nine-g img {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+}
+.nine-h-img {
+  width: 300px;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  margin: auto;
+}
+.nine-h-btn {
+  margin: auto;
+  text-align: center;
+}
+.google-search {
+  width: 700px;
+  font-size: large;
+  font-family: Arial, Helvetica, sans-serif;
+  border: none;
+  padding: 15px 15px;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  margin: auto;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.google-btn {
+  display: inline;
+  margin: auto;
+  margin-top: 25px;
+  background-color: rgb(199, 199, 199);
+  font-size: large;
+  padding: 10px;
+  border: none;
+  margin-right: 15px;
+}
+.eleven-a {
+  display: grid;
+  grid-template-columns: 200px 75px;
+}
+.eleven-a div:first-child {
+  background-color: rgb(91, 179, 214);
+}
+.eleven-a div:last-child {
+  background-color: pink;
+}
+.eleven-b {
+  display: grid;
+  grid-template-columns: 50px 1fr 75px;
+}
+.eleven-b div:first-child {
+  background-color: rgb(91, 179, 214);
+}
+.eleven-b div:last-child {
+  background-color: palevioletred;
+}
+.col2 {
+  background-color: red;
+}
+.eleven-c {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 20px;
+  row-gap: 10px;
+}
+.col1 {
+  background-color: red;
+}
+.col2c {
+  background-color: aquamarine;
+}
+.col3 {
+  background-color: brown;
+}
+.col4 {
+  background-color: mediumorchid;
 }
