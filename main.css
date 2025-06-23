@@ -283,7 +283,6 @@ h2 {
   font-family: Montserrat;
   text-align: center;
   font-size: 35px;
-  flex-direction: ;
   font-weight: bold;
   margin-bottom: 10px;
 }
@@ -831,8 +830,8 @@ label {
 .c-13-main {
   width: 400px;
   border: 1px solid ;
-  font-family: Arial, Helvetica, sans-serif;
   padding: 12px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .c-13-parent1 {
   display: flex;
@@ -858,4 +857,39 @@ label {
 }
 p.time {
   margin-top: 5px;
+}
+.main-13-f {
+  display: flex;
+  gap: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 500px;
+}
+.f-13-info >div:first-child {
+  margin-bottom: 10px;
+}
+.f-13-username {
+  color: gray;
+}
+.gray-box {
+  width: 180px;
+  height: 100px;
+  border-right: 1px solid gray;
+  background-color: rgb(188, 181, 181);
+}
+.link-box {
+  width: 360px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  border: 2px solid gray;
+  border-radius: 15px;
+  overflow: hidden;
+}
+.link-youtube {
+  color: gray;
+  line-height: 2;
+}
+.bottom-right {
+  position: fixed;
+  
 }
